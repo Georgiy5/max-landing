@@ -1,0 +1,27 @@
+:root {
+  box-sizing: border-box;
+  --max-bg: #f1f5fb;
+  --max-surface: #ffffff;
+  --max-text: #111a34;
+  --max-text-muted: #6f7f98;
+  --max-border: #d7e0ec;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background: var(--max-bg);
+  color: var(--max-text);
+}
+
+h1,
+h2, 
+p {
+  margin: 0;
+  padding: 0;
+}
