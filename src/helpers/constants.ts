@@ -1,0 +1,1 @@
+export const ORDER_ACCENT_GRADIENT = { from: "max-primary.6", to: "max-accent.6", deg: 90 } as const;

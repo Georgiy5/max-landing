@@ -10,6 +10,10 @@ export const maxTheme = createTheme({
       '#edf3ff', '#dbe8ff', '#b7ceff', '#8eb1ff', '#6393fa',
       '#3f7cf2', '#1f6ff3', '#195fd1', '#154eab', '#123f86'
     ],
+    'max-accent': [
+      '#f2eefe', '#e1d6fd', '#c3adfb', '#a582f8', '#875df5',
+      '#7144f0', '#6633ea', '#5629cb', '#451faa', '#351889'
+    ],
     gray: [
       '#f8faff', '#f1f5fb', '#e6ecf5', '#d7e0ec', '#b8c5d8',
       '#94a3b9', '#6f7f98', '#4f5f78', '#324158', '#1f2e44'
