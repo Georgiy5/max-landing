@@ -42,7 +42,7 @@ export default function Order() {
             title: "Тестируем бота",
             description:
                 "Разрабатываем и проводим всестороннее тестирование. Вы проверяете функции и вносите правки до полного соответствия.",
-            meta: "3-5 дней",
+            meta: "от 5 дней",
             icon: <IconHammer size={22} />,
         },
         {
@@ -59,7 +59,7 @@ export default function Order() {
         <Box
             component="section"
             id="order"
-            mt={{ base: 60, sm: 100, md: 150 }}
+            mt={{ base: 60, sm: 100, }}
         >
             <Container size="xl">
                 <Stack align="center" gap={14}>

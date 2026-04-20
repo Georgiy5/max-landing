@@ -46,7 +46,7 @@ export default function ForWho() {
     const theme = useMantineTheme();
 
     return (
-        <Container id="for-who" size="xl" mt={{ base: 60, sm: 100, md: 150 }} component="section">
+        <Container id="for-who" size="xl" mt={{ base: 60, sm: 100, }} component="section">
             <Stack align="center" >
                 <Title
                     c="max-navy.9"

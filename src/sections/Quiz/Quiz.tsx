@@ -34,7 +34,7 @@ export function Quiz() {
 
 
     return (
-        <Container id="quiz" size="xl" mt={{ base: 60, sm: 100, md: 150 }} component="section">
+        <Container id="quiz" size="xl" mt={{ base: 60, sm: 100, }} component="section">
 
             <Stack align="center" gap={14}>
                 <Title
@@ -44,7 +44,7 @@ export function Quiz() {
                     order={2}
                     ta="center"
                 >
-                    Анкета для рассчета стоимости бота
+                    Запрос коммерческого предложения 44-ФЗ/223-ФЗ
                 </Title>
                 <Text
                     ta="center"
@@ -53,7 +53,7 @@ export function Quiz() {
                     fz="clamp(15px, 1.45vw, 28px)"
                     lh={1.4}
                 >
-                    Пройдите короткую анкету, и мы подготовим для вас коммерческое.
+                    Пройдите короткую анкету, и мы подготовим для вас коммерческое предложение.
                 </Text>
             </Stack>
             <Paper withBorder radius="xl" p={40} shadow="sm" maw={700} m={'0 auto'} mt={50}>

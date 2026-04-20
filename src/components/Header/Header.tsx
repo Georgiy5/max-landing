@@ -32,7 +32,7 @@ export default function Header() {
                             <Text fw={800} fz="lg" c="max-navy.9">MAX BOTS</Text>
                         </a>
 
-                        <Group h="100%" gap={2} visibleFrom="sm">
+                        <Group h="100%" gap={2} className={classes.desktopNav}>
                             {links.map((link) => (
                                 <a key={link.href} href={link.href} className={classes.link}>
                                     {link.label}
@@ -40,21 +40,21 @@ export default function Header() {
                             ))}
                         </Group>
 
-                        <Group visibleFrom="sm">
+                        <Group className={classes.desktopCta}>
                             <Button
                                 component="a"
                                 href="#quiz"
                                 variant="gradient"
                                 gradient={ORDER_ACCENT_GRADIENT}
                             >
-                                Заказать бота
+                                Запросить КП
                             </Button>
                         </Group>
 
                         <Burger
                             opened={drawerOpened}
                             onClick={toggleDrawer}
-                            hiddenFrom="sm"
+                            className={classes.burgerButton}
                             aria-label="Toggle navigation"
                         />
                     </Group>
@@ -68,7 +68,6 @@ export default function Header() {
                 size="100%"
                 padding="md"
                 title="Navigation"
-                hiddenFrom="sm"
                 zIndex={1000000}
             >
                 <ScrollArea h="calc(100vh - 80px)" mx="-md">

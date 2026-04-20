@@ -25,7 +25,7 @@ export default function OurFeatures() {
     ] as const;
 
     return (
-        <Container id="features" size="xl" mt={{ base: 60, sm: 100, md: 150 }} component="section">
+        <Container id="features" size="xl" mt={{ base: 60, sm: 100, }} component="section">
             <Stack align="center">
                 <Title
                     c="max-navy.9"
@@ -38,7 +38,7 @@ export default function OurFeatures() {
                     Почему выбирают наших ботов
                 </Title>
                 <Text ta='center' c='dimmed' maw={680} fz="clamp(15px, 1.45vw, 26px)" lh={1.42}>
-                    Автоматизируем рутину, чтобы вы могли сосредоточиться на развитии бизнеса.
+                    Автоматизируем рутину, чтобы вы могли сосредоточиться на более важных задачах.
                 </Text>
             </Stack>
 

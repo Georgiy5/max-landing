@@ -48,7 +48,7 @@ export default function Contacts() {
         <Box
             component="section"
             id="contacts"
-            mt={{ base: 60, sm: 100, md: 150 }}
+            mt={{ base: 60, sm: 100, }}
         >
             <Container size="md">
                 <Stack align="center" gap={14}>

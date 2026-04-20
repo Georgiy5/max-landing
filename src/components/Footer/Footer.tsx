@@ -29,7 +29,7 @@ export default function Footer() {
                                 MAX BOTS
                             </Text>
                             <Text c="dimmed" fz="sm">
-                                Боты для автоматизации продаж, поддержки и процессов
+                                Боты для автоматизации рабочих процессов, поддержки и обслуживания
                             </Text>
                         </Stack>
 
