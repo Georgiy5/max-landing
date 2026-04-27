@@ -37,7 +37,7 @@ export default function AboutUsChatSection() {
         <Box
             component="section"
             px={{ base: 8, sm: 16, md: 40 }}
-            mt={{ base: 60, sm: 100, }}
+            mt={{ base: 60, sm: 100, lg: 0 }}
 
         >
             <Container size="xl" px={0}>

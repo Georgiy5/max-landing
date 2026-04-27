@@ -6,10 +6,12 @@ export default function AboutUsInformationSection() {
         <Box
             component="section"
             id="home"
-            px={{ base: 16, md: 40 }}
-            pt={28}
+            // px={{ base: 16, md: 40 }}
+            pt={{ base: 28, lg: 0 }}
+            h="100%"
+            style={{ display: 'flex', alignItems: 'center' }}
         >
-            <Container size="xl">
+            <Container size="xl" style={{ width: '100%' }}>
                 <Stack gap="clamp(20px, 3vw, 34px)">
                     <Stack pt={{ base: 8, md: 24 }} gap="clamp(14px, 2.1vw, 26px)">
                         <Title
